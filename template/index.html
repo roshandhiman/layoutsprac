@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Template</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Hand:wght@400..700&family=Geist+Pixel:ELSH@37.6&family=Griffy&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Hand:wght@400..700&family=Geist+Pixel:ELSH@37.6&family=Griffy&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Noto+Sans+JP:wght@100..900&family=Yuyu&display=swap" rel="stylesheet">
+        <style>
+            *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial,sans-serif;
+    background:#f4f4f4;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 60px;
+    background:#222;
+}
+
+.logo{
+    color:white;
+    font-size:28px;
+    font-weight:bold;
+}
+
+.nav{
+    display:flex;
+    list-style:none;
+    gap:30px;
+}
+
+.nav a{
+    text-decoration:none;
+    color:white;
+    font-size:18px;
+    transition:0.3s;
+}
+
+.nav a:hover{
+    color:orange;
+    text-decoration:underline
+}
+
+.hero{
+    height:80vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(to right,#4facfe,#00f2fe);
+}
+
+.herocontent{
+    text-align:center;
+    color:black;
+    font-family: griffy;
+}
+
+.herocontent h1{
+    font-size:90px;
+    margin-bottom:20px;
+}
+h1:hover{
+    text-decoration: underline;
+
+}
+
+.herocontent p{
+    font-size:22px;
+    margin-bottom:25px;
+}
+
+.herocontent button{
+    padding:12px 30px;
+    border:none;
+    border-radius:5px;
+    background:wheat;
+    color:#222;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    padding:70px;
+}
+
+.card{
+    width:280px;
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+}
+
+.card h2{
+    margin-bottom:15px;
+}
+
+.about{
+    padding:80px;
+    text-align:center;
+    background:wheat;
+    font-family:yuyu ;
+}
+.about h2{
+    margin-bottom:20px;
+    font-size: 90px;
+    text-decoration: none;
+}
+.about p{
+    width:70%;
+    margin:auto;
+    line-height:1.8;
+    font-size: 50px;
+}
+.about p a{
+    text-decoration: none;
+}
+.about p a:hover{
+    color: black;
+    text-decoration: underline;
+}
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+            <div class="logo">LOGO</div>
+            <ul class="nav">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">BODY</a></li>
+                <li><a href="#">ABOUT</a></li>
+            </ul>
+            </nav>
+        </header>
+        <section class="hero">
+            <div class="herocontent">
+                <h1>I AM ROSHAN</h1>
+            </div>
+        </section>
+        <section class="cards">
+        <div class="card">
+            <h2>Card 1</h2>
+            <p>Description</p>
+        </div>
+        <div class="card">
+            <h2>Card 2</h2>
+            <p>Description</p>
+        </div>
+        <div class="card">
+            <h2>Card 3</h2>
+            <p>Description</p>
+        </div>
+    </section>
+    <section class="about">
+        <h2>About me 🤓</h2>
+        <p>
+            <a href="https://github.com/roshandhiman">Github Hai Mera</a>
+        </p>
+    </section>
+    <footer>
+        <p>© 2026 Your Website</p>
+    </footer>
+    </body>
+</html>
